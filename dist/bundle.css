@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #818181 !important;
+}
+
+#content {
+  width: 1200px;
+  margin: 0 auto;
+  background: white;
+  height: 100%;
+}
+
+.container {
+  width: 940px !important;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.container h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.container .row .col-4 {
+  text-align: left;
+  font-size: 15px;
+  color: #373330;
+  line-height: 18px;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 20px;
+}
+
+.col-4 h6 {
+  color: #3c2f20;
+  margin-top: 10px;
+}
+
+.col-4 a {
+  display: block;
+  color: black;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.col-4 a span {
+  text-transform: lowercase;
+  font-size: 20px;
+}
+
+.col-4 p {
+  margin-top: 10px;
+  margin-bottom: 45px;
+}
+
+@media (max-width: 992px) {
+  nav a img {
+    width: 100px;
+    height: 30px;
+  }
+
+  .bonfesto {
+    width: 150px;
+    height: 100px;
+  }
+
+  .container .row .col-4 {
+    font-size: 12px;
+  }
+
+  .col-4 a {
+    font-size: 25px;
+  }
+
+  .col-4 a span {
+    font-size: 15px;
+  }
+}
+@media (max-width: 575px) {
+  .container {
+    width: 70% !important;
+  }
+}
